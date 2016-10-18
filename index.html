@@ -1,22 +1,52 @@
-﻿<!DOCTYPE HTML>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<script>
-function browserRedirect() {
-    var sUserAgent = navigator.userAgent.toLowerCase();
-    var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
-    var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
-    var bIsMidp = sUserAgent.match(/midp/i) == "midp";
-    var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
-    var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
-    var bIsAndroid = sUserAgent.match(/android/i) == "android";
-    var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
-    var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
-    if (!(bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) ){
-        window.location.href="http://blog.csdn.net/kong_gu_you_lan";
-    } else {
-        window.location.href="http://m.blog.csdn.net/blog/index?username=kong_gu_you_lan";
-    }
-}
-browserRedirect();
-</script>
+<!DOCTYPE HTML>
+<!--
+	Aerial 1.0 by HTML5 UP
+	html5up.net | @n33co
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Mr.Yang</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+			<link rel="stylesheet" href="css/style-noscript.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+				<header id="header">
+					<h1>Yang Le</h1>
+					<nav>
+						<ul>
+							<li><a style="font-weight:bold;" href="http://blog.csdn.net/kong_gu_you_lan" target="_blank">CSDN</a></li>
+							<li><a style="font-weight:bold;" href="http://www.jianshu.com/users/34ece31cd6eb/latest_articles" target="_blank">JianShu</a></li>
+							<li><a style="font-weight:bold;" href="https://github.com/alidili" target="_blank">GitHub</a></li>
+							<li><a style="font-weight:bold;" href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&amp;email=GXRrN2B4d34pKysgWX92YXR4cHU3enZ0" style="text-decoration:none"" target="_blank">Email</a></li>
+						</ul>
+					</nav>
+				</header>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<span class="copyright">Copyrigh &copy; 2016 &nbsp; yangle.tech &nbsp; All Rights Reserved</span>
+				</footer>
+				
+			</div>
+		</div>
+	</body>
 </html>
